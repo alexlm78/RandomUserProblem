@@ -11,6 +11,6 @@ clean:
 
 run: build
 	@echo "Running..."
-	@go run bin/$(APP_NAME)
+	@./bin/$(APP_NAME)
 
 .phony: build clean run
